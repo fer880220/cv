@@ -1,0 +1,112 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #333;
+}
+
+h3 {
+    color: #666;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.columnas_containter{
+    display: flex; 
+        flex-wrap: nowrap;
+}
+
+
+header {
+    background: linear-gradient(to right, #282c28, #05457a); /* Define el gradiente */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+
+    align-items: center; 
+   
+}
+
+.textHeader{
+    flex-grow: 1;
+}
+
+p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    left: 10px;      
+}
+
+.titulos {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333; /* Color del texto */
+    margin-bottom: 5px; /* Espacio inferior entre elementos */
+    margin-top: 12px;
+    
+}
+
+/* Estilos para el índice */
+#index-nav {
+    position: fixed;
+    flex: 0 0 auto; 
+    top: 0;
+    left: 0;
+    width: 200px; /* Ancho del índice */
+    padding: 20px;
+    background-color: #282c28;
+    overflow-y: auto; /* Hacer scroll si el contenido es demasiado largo */
+    height: 100%; /* Altura máxima para ocupar toda la pantalla */
+}
+.container {
+    flex: 1 1 auto; /* Hace que el contenedor ocupe todo el espacio restante */
+    margin-left: calc(200px + 40px); /* Ajusta el valor del margen según sea necesario */
+    /* Agrega estilos adicionales según sea necesario */
+}
+#index-nav ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#index-nav li {
+    margin-bottom: 10px;
+}
+
+#index-nav a {
+    text-decoration: none;
+    color:  #b4bdc5;
+}
+
+#index-nav a:hover {
+    color: #555;
+}
